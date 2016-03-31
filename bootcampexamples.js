@@ -18,5 +18,5 @@ var sum = 0;
 grocery.forEach(function(element){
 	console.log(element.name + ': ' + element.price);
   sum = sum + element.price;
-}
+});
 console.log('total: ' + sum);
